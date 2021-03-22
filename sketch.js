@@ -145,7 +145,7 @@ function mouseReleased(){
   slingShot.fly();
 }
 function keyPressed(){
-  if(keyCode=== UP_ARROW){
+  if(keyCode=== 32){
 
     Matter.Body.setPosition(polygon.body,{x:100,y:200})
     slingShot.launch(polygon.body);
